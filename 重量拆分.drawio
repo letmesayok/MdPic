@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-02-10T07:09:33.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="okuiMey-Gb9YK-i9Dq7E" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-10T08:49:11.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="MS4dNEVsdAg-kHtHsgWK" version="15.9.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="716" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="njuP0xFI8WVh34JiceHF-87" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="970" width="700" height="700" as="geometry" />
+        </mxCell>
         <mxCell id="njuP0xFI8WVh34JiceHF-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220.0000000000001" y="170" as="sourcePoint" />
@@ -82,7 +85,7 @@
         <mxCell id="njuP0xFI8WVh34JiceHF-58" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njuP0xFI8WVh34JiceHF-51" target="njuP0xFI8WVh34JiceHF-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="njuP0xFI8WVh34JiceHF-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njuP0xFI8WVh34JiceHF-51" target="njuP0xFI8WVh34JiceHF-59">
+        <mxCell id="njuP0xFI8WVh34JiceHF-60" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njuP0xFI8WVh34JiceHF-51" target="njuP0xFI8WVh34JiceHF-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="njuP0xFI8WVh34JiceHF-51" value="总重 &amp;lt; 重量上限&amp;nbsp;&lt;br&gt;总重 / 重量上限 &amp;gt; 50" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -94,7 +97,7 @@
         <mxCell id="njuP0xFI8WVh34JiceHF-62" value="存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njuP0xFI8WVh34JiceHF-59" target="njuP0xFI8WVh34JiceHF-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="njuP0xFI8WVh34JiceHF-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njuP0xFI8WVh34JiceHF-59" target="njuP0xFI8WVh34JiceHF-63">
+        <mxCell id="njuP0xFI8WVh34JiceHF-64" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njuP0xFI8WVh34JiceHF-59" target="njuP0xFI8WVh34JiceHF-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="njuP0xFI8WVh34JiceHF-59" value="查询STO重量为0的订单" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -106,11 +109,72 @@
         <mxCell id="njuP0xFI8WVh34JiceHF-66" value="开启配置并&lt;br&gt;订单只包含赠品&lt;br&gt;或订单只包含非单发件" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njuP0xFI8WVh34JiceHF-63" target="njuP0xFI8WVh34JiceHF-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njuP0xFI8WVh34JiceHF-63" target="njuP0xFI8WVh34JiceHF-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="njuP0xFI8WVh34JiceHF-63" value="检查配置&lt;br&gt;拆分检查订单&lt;br&gt;拆分检查单发件" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="131.88" y="800" width="171.25" height="80" as="geometry" />
+          <mxGeometry x="131.88" y="810" width="171.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="njuP0xFI8WVh34JiceHF-65" value="抛出异常" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="490" y="820" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njuP0xFI8WVh34JiceHF-67" target="njuP0xFI8WVh34JiceHF-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-67" value="查询 STO 单品重量和组合装重量&lt;br&gt;（总重/数量）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="96.25" y="920" width="242.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njuP0xFI8WVh34JiceHF-69" target="njuP0xFI8WVh34JiceHF-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-73" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="njuP0xFI8WVh34JiceHF-72">
+          <mxGeometry x="-0.1875" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-81" value="否&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njuP0xFI8WVh34JiceHF-69" target="njuP0xFI8WVh34JiceHF-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-69" value="所有查询的单品/组合装&lt;br&gt;重量都超过重量上限" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120.93" y="1000" width="193.13" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-71" value="抛出异常" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="1010" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njuP0xFI8WVh34JiceHF-75" target="njuP0xFI8WVh34JiceHF-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-79" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="njuP0xFI8WVh34JiceHF-78">
+          <mxGeometry x="-0.2436" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-75" value="总重&amp;nbsp; &amp;lt;= 重量上限" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="144.69" y="1100" width="145.62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-77" value="刷新订单，结束拆分" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="372" y="1100" width="156" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-80" value="重量上限 W&lt;br&gt;&lt;div&gt;&lt;span&gt;每组重量上限 W2 = W&lt;/span&gt;&lt;/div&gt;&lt;div&gt;查找 STO 中 w&amp;nbsp; &amp;lt; W2 中最大的货品均重 weight，数量 num&lt;/div&gt;&lt;div&gt;理论最佳数量：bigNum = W2 / weight&amp;nbsp;&lt;/div&gt;&lt;div&gt;如果 bigNum &amp;gt; num&amp;nbsp; bigNum = num&lt;/div&gt;&lt;div&gt;减去已选择的重量 W2 = W2 - bigNum * weight&lt;/div&gt;&lt;div&gt;减去已选择的数量 num - bigNum&lt;/div&gt;&lt;div&gt;如果 W2 = 0 判断重量是否小于重量下限&lt;/div&gt;&lt;div&gt;一个子单分摊拆分完成&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="1490" width="409.07" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-82" value="重量上限 W&lt;br&gt;每组重量W2 = W&lt;br&gt;理论最佳数量 bigNum" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="124.06" y="1169" width="190" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.46;entryY=-0.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njuP0xFI8WVh34JiceHF-83" target="njuP0xFI8WVh34JiceHF-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-83" value="&lt;span style=&quot;text-align: left&quot;&gt;查找 STO 中 w&amp;nbsp; &amp;lt; W2 中最大的货品均重 weight，数量 num&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="1250" width="198.12" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-84" value="&lt;span&gt;理论最佳数量：bigNum = W2 / weight&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;div&gt;如果 bigNum &amp;gt; num&amp;nbsp; bigNum = num&lt;/div&gt;&lt;div&gt;减去已选择的重量 W2 = W2 - bigNum * weight&lt;/div&gt;&lt;div style=&quot;&quot;&gt;减去已选择的数量 num - bigNum&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="86.25" y="1380" width="293.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-86" value="&lt;span&gt;理论最佳数量：bigNum = W2 / weight&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;div&gt;如果 bigNum &amp;gt; num&amp;nbsp; bigNum = num&lt;/div&gt;&lt;div&gt;减去已选择的重量 W2 = W2 - bigNum * weight&lt;/div&gt;&lt;div style=&quot;&quot;&gt;减去已选择的数量 num - bigNum&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="1250" width="293.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="njuP0xFI8WVh34JiceHF-88" value="循环操作" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;labelBorderColor=none;fontColor=#EA6B66;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="980" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
