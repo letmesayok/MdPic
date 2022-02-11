@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T01:11:30.582Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="dt_OaVaqojRVJaAgAL6d" version="16.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T01:24:52.865Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="g358-qNmGSPiu8-W9Qpv" version="16.5.5" type="github">
   <diagram id="uhLY-ic7RiXZPrAS8pwG" name="第 1 页">
     <mxGraphModel dx="1902" dy="685" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="Fv4V9yx8pxaX2ro8pe0i-21" value="" style="edgeStyle=none;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="Fv4V9yx8pxaX2ro8pe0i-15" target="Fv4V9yx8pxaX2ro8pe0i-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fv4V9yx8pxaX2ro8pe0i-15" value="根据订单 id 查询子单" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+        <mxCell id="Fv4V9yx8pxaX2ro8pe0i-15" value="根据订单 id 查询子单&lt;br&gt;(platform_id &amp;gt; 0)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="-13" y="566" width="239.25" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fv4V9yx8pxaX2ro8pe0i-18" value="循环子单" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
@@ -132,6 +132,9 @@
         </mxCell>
         <mxCell id="Fv4V9yx8pxaX2ro8pe0i-46" value="进行下一次 st 循环" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="16.5" y="1703" width="212" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="tX9zb52U9kyokE4BV2hg-9" value="&amp;nbsp; &amp;nbsp;一键拆分：&lt;br&gt;&lt;ul&gt;&lt;li&gt;拆分的是递交过程中合并的订单&lt;/li&gt;&lt;li&gt;&amp;nbsp;st 有多个 sto，且 platform &amp;gt; 0 src_tid 不同&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;rounded=1;shadow=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="21" width="494.5" height="165" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
