@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T01:22:38.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.5.6" etag="fTUFLzSIJiiOdDNM_Ym-" type="github"><diagram id="c8EDO4yhm_CVsELlqmGC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-18T01:27:18.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="8A_Rb9TgrpzDJEOjSwce" version="16.5.6" type="github">
+  <diagram id="c8EDO4yhm_CVsELlqmGC" name="第 1 页">
+    <mxGraphModel dx="1502" dy="1085" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YZHFrodAEggrizg8l6yL-3" value="&lt;ul style=&quot;font-size: 18px&quot;&gt;&lt;li&gt;tradeIDs：订单ids&lt;/li&gt;&lt;li&gt;toDelay：预订单是否延顺激活时间&lt;/li&gt;&lt;li&gt;useMonth：延顺单位是否为月，默认为天&lt;/li&gt;&lt;li&gt;mode：拆分方式（单品拆，套装拆）&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#36393d;fillColor=#cce5ff;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="206" y="-134" width="440" height="136" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
