@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T10:35:39.160Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="SQv24kgYh1KPV8wQ54lB" version="16.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T10:37:09.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="3P5-IwF8M5LAviNaQIyk" version="16.6.3" type="github">
   <diagram id="m3gFDPZ18lSmyjhxiiTP" name="第 1 页">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -82,11 +82,20 @@
         <mxCell id="hPtF4HsWPdSG9iK1hHm2-19" value="查询当前时间该店铺所有符合条件的直播间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="209.5" y="390" width="149" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="hPtF4HsWPdSG9iK1hHm2-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hPtF4HsWPdSG9iK1hHm2-20" target="hPtF4HsWPdSG9iK1hHm2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hPtF4HsWPdSG9iK1hHm2-20" value="遍历，寻找符合条件的直播间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="415" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hPtF4HsWPdSG9iK1hHm2-24" value="插入主单，子单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="230" width="120" height="60" as="geometry" />
+        <mxCell id="hPtF4HsWPdSG9iK1hHm2-24" value="每日表插入主单，子单，直播间id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hPtF4HsWPdSG9iK1hHm2-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.59;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hPtF4HsWPdSG9iK1hHm2-30" target="hPtF4HsWPdSG9iK1hHm2-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hPtF4HsWPdSG9iK1hHm2-30" value="根据直播间的创建规则筛选符合条件的子单" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="415" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
