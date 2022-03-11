@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T09:23:50.168Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="3RoCQTfQMax0Clt4Ba29" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T09:27:34.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="7Zcjm0qYgPYjCyBD0jOG" version="17.1.1" type="github">
   <diagram id="t_F-1Dw6Zl5kQm8IEOU6" name="第 1 页">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="T5tk2AwcZrp4xSw99o7m-5" value="&lt;ul style=&quot;font-size: 15px;&quot;&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;场次 id&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;主播 id&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;店铺 id&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;子单 id&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="720" y="375" width="130" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="T5tk2AwcZrp4xSw99o7m-7" value="&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;span style=&quot;white-space: pre ; font-size: 16px&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre ; font-size: 16px&quot;&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 表头&lt;/div&gt;&lt;ul style=&quot;font-size: 16px&quot;&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;场次名称&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;店铺名称&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;主播名称&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;主播编号&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;总销售额&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;货品总成本&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;邮费总成本&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;订单包装总成本&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;预估退款率&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;预估退款金额&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;预估毛利&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;退款订单量&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;退款商品数量&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;退款金额&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;毛利&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;主播佣金&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=16;fontColor=#007FFF;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="T5tk2AwcZrp4xSw99o7m-7" value="&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;span style=&quot;white-space: pre ; font-size: 16px&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre ; font-size: 16px&quot;&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 表头&lt;/div&gt;&lt;ul style=&quot;font-size: 16px&quot;&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;场次名称&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;店铺名称&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;主播名称&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;主播编号&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;总销售额&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;货品总成本&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;邮费总成本&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;订单包装总成本&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;预估退款率&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;预估退款金额&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;预估毛利&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;退款订单量&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;退款商品数量&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;退款金额&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;毛利&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;主播佣金&lt;/li&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;货品数量&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=16;fontColor=#007FFF;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="180" y="50" width="160" height="410" as="geometry" />
         </mxCell>
         <mxCell id="rYx-SEjjHaIsWCA3k80J-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=#007FFF;" edge="1" parent="1" source="T5tk2AwcZrp4xSw99o7m-8" target="rYx-SEjjHaIsWCA3k80J-2">
@@ -68,7 +68,7 @@
         <mxCell id="rYx-SEjjHaIsWCA3k80J-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="rYx-SEjjHaIsWCA3k80J-10" target="rYx-SEjjHaIsWCA3k80J-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rYx-SEjjHaIsWCA3k80J-10" value="计算销售额&lt;br&gt;成本&lt;br&gt;邮费" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="rYx-SEjjHaIsWCA3k80J-10" value="计算销售额&lt;br&gt;成本&lt;br&gt;邮费&lt;br&gt;。。。" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="540" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rYx-SEjjHaIsWCA3k80J-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="rYx-SEjjHaIsWCA3k80J-14" target="rYx-SEjjHaIsWCA3k80J-16">
@@ -112,16 +112,16 @@
         <mxCell id="rYx-SEjjHaIsWCA3k80J-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="rYx-SEjjHaIsWCA3k80J-28" target="rYx-SEjjHaIsWCA3k80J-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rYx-SEjjHaIsWCA3k80J-28" value="获取退款，&lt;br&gt;退换数量&lt;br&gt;换出货品成本" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="rYx-SEjjHaIsWCA3k80J-28" value="获取退款，&lt;br&gt;退换数量&lt;br&gt;换出货品成本&lt;br&gt;。。。" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="540" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rYx-SEjjHaIsWCA3k80J-30" value="修改绩效表&lt;br&gt;退款金额和成本" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="540" y="1130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rYx-SEjjHaIsWCA3k80J-34" value="统计销售" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="rYx-SEjjHaIsWCA3k80J-34" value="游标1：统计销售" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="760" y="150" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rYx-SEjjHaIsWCA3k80J-35" value="统计退换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="rYx-SEjjHaIsWCA3k80J-35" value="游标2：统计退换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="760" y="710" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
