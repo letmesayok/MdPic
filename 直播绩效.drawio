@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T02:59:41.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="1TREA_lqnQajiSm4kV2f" version="17.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T03:03:17.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="GZbu4pTUjUzWBHJ8Oy8z" version="17.1.0" type="github">
   <diagram id="m3gFDPZ18lSmyjhxiiTP" name="第 1 页">
     <mxGraphModel dx="1221" dy="2564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WvAy2W0lhvSxkWNvfpzA-20" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="150" y="580" width="850" height="780" as="geometry" />
+        <mxCell id="WvAy2W0lhvSxkWNvfpzA-95" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-520" width="850" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="WvAy2W0lhvSxkWNvfpzA-83" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="567.5" width="850" height="842.5" as="geometry" />
         </mxCell>
         <mxCell id="WvAy2W0lhvSxkWNvfpzA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-2" target="WvAy2W0lhvSxkWNvfpzA-3">
           <mxGeometry relative="1" as="geometry" />
@@ -98,7 +101,7 @@
         <mxCell id="WvAy2W0lhvSxkWNvfpzA-26" value="查询子单&lt;br&gt;是否有主播id备注" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="373.5" y="750" width="162.5" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WvAy2W0lhvSxkWNvfpzA-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-29" target="WvAy2W0lhvSxkWNvfpzA-38">
+        <mxCell id="WvAy2W0lhvSxkWNvfpzA-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-29" target="WvAy2W0lhvSxkWNvfpzA-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WvAy2W0lhvSxkWNvfpzA-29" value="获取主播id" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
@@ -110,29 +113,19 @@
         <mxCell id="WvAy2W0lhvSxkWNvfpzA-30" value="开启游标&lt;br&gt;循环处理" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="393.5" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WvAy2W0lhvSxkWNvfpzA-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;exitX=0.944;exitY=0.472;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-38" target="WvAy2W0lhvSxkWNvfpzA-47">
+        <mxCell id="WvAy2W0lhvSxkWNvfpzA-90" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-38" target="WvAy2W0lhvSxkWNvfpzA-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WvAy2W0lhvSxkWNvfpzA-91" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-38" target="WvAy2W0lhvSxkWNvfpzA-49">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="706.5" y="995" />
-              <mxPoint x="773.5" y="995" />
+              <mxPoint x="635" y="1220" />
+              <mxPoint x="635" y="1220" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WvAy2W0lhvSxkWNvfpzA-52" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontFamily=Helvetica;" vertex="1" connectable="0" parent="WvAy2W0lhvSxkWNvfpzA-51">
-          <mxGeometry x="-0.1724" y="5" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WvAy2W0lhvSxkWNvfpzA-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-38" target="WvAy2W0lhvSxkWNvfpzA-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WvAy2W0lhvSxkWNvfpzA-58" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontFamily=Helvetica;" vertex="1" connectable="0" parent="WvAy2W0lhvSxkWNvfpzA-56">
-          <mxGeometry x="-0.2674" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WvAy2W0lhvSxkWNvfpzA-38" value="查询主播&lt;br&gt;当前时间段是否有&lt;br&gt;直播间" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="553.5" y="950" width="162.5" height="90" as="geometry" />
+          <mxGeometry x="554" y="1110" width="162.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="WvAy2W0lhvSxkWNvfpzA-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-39" target="WvAy2W0lhvSxkWNvfpzA-42">
           <mxGeometry relative="1" as="geometry" />
@@ -140,35 +133,23 @@
         <mxCell id="WvAy2W0lhvSxkWNvfpzA-39" value="查询店铺当前时间段所有直播间" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="193.5" y="870" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WvAy2W0lhvSxkWNvfpzA-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-42" target="WvAy2W0lhvSxkWNvfpzA-44">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="263.5" y="1190" />
-              <mxPoint x="443.5" y="1190" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="WvAy2W0lhvSxkWNvfpzA-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-42" target="WvAy2W0lhvSxkWNvfpzA-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WvAy2W0lhvSxkWNvfpzA-42" value="获取符合条件的直播间" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="193.5" y="1040" width="140" height="55" as="geometry" />
         </mxCell>
         <mxCell id="WvAy2W0lhvSxkWNvfpzA-44" value="插入每日绩效表" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="373.5" y="1250" width="140" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="WvAy2W0lhvSxkWNvfpzA-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-47" target="WvAy2W0lhvSxkWNvfpzA-49">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="193.5" y="1260" width="140" height="55" as="geometry" />
         </mxCell>
         <mxCell id="WvAy2W0lhvSxkWNvfpzA-47" value="创建全天直播间" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="703.5" y="1065" width="140" height="55" as="geometry" />
+          <mxGeometry x="790" y="1127.5" width="140" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="WvAy2W0lhvSxkWNvfpzA-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-49" target="WvAy2W0lhvSxkWNvfpzA-44">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="443.5" y="1190" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="WvAy2W0lhvSxkWNvfpzA-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-49" target="WvAy2W0lhvSxkWNvfpzA-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WvAy2W0lhvSxkWNvfpzA-49" value="获取直播间id" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="564.75" y="1160" width="140" height="55" as="geometry" />
+          <mxGeometry x="564.75" y="1260" width="140" height="55" as="geometry" />
         </mxCell>
         <mxCell id="WvAy2W0lhvSxkWNvfpzA-70" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-66" target="WvAy2W0lhvSxkWNvfpzA-69">
           <mxGeometry relative="1" as="geometry">
@@ -199,6 +180,26 @@
         </mxCell>
         <mxCell id="WvAy2W0lhvSxkWNvfpzA-69" value="插入直播订单自动处理表" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="695" y="-100" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WvAy2W0lhvSxkWNvfpzA-87" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-84" target="WvAy2W0lhvSxkWNvfpzA-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WvAy2W0lhvSxkWNvfpzA-88" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-84" target="WvAy2W0lhvSxkWNvfpzA-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WvAy2W0lhvSxkWNvfpzA-84" value="主播是否存在" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="567" y="940" width="136.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WvAy2W0lhvSxkWNvfpzA-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="WvAy2W0lhvSxkWNvfpzA-86" target="WvAy2W0lhvSxkWNvfpzA-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="1090" />
+              <mxPoint x="635" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WvAy2W0lhvSxkWNvfpzA-86" value="创建新主播" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="760" y="953.75" width="120" height="42.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
