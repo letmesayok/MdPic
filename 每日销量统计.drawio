@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T03:20:06.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="SfYwHUlTyeVYVKRYMPWX" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-14T03:33:38.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="GBqG0a83DsagxsJ4Hgfn" version="17.1.2" type="github">
   <diagram id="WJCd8hfYsrlZ1fp4Vryd" name="第 1 页">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XALDTjOtuw6YVkXv6AhM-14" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#dae8fc;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="185" y="620" width="570" height="570" as="geometry" />
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-14" value="" style="whiteSpace=wrap;html=1;strokeColor=none;fillColor=#dae8fc;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="620" width="710" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="XALDTjOtuw6YVkXv6AhM-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XALDTjOtuw6YVkXv6AhM-1" target="XALDTjOtuw6YVkXv6AhM-2">
           <mxGeometry relative="1" as="geometry" />
@@ -49,17 +49,78 @@
         <mxCell id="XALDTjOtuw6YVkXv6AhM-12" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="415" y="40" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XALDTjOtuw6YVkXv6AhM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="XALDTjOtuw6YVkXv6AhM-16" target="XALDTjOtuw6YVkXv6AhM-20">
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-21" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="XALDTjOtuw6YVkXv6AhM-16" target="XALDTjOtuw6YVkXv6AhM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="XALDTjOtuw6YVkXv6AhM-16" target="XALDTjOtuw6YVkXv6AhM-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XALDTjOtuw6YVkXv6AhM-16" value="临时时间 &amp;gt; = 结束时间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="650" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="XALDTjOtuw6YVkXv6AhM-19" value="开启订单循环" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="630" y="620" width="125" height="40" as="geometry" />
+          <mxGeometry x="725" y="620" width="125" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XALDTjOtuw6YVkXv6AhM-20" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="285" y="770" width="100" height="60" as="geometry" />
+          <mxGeometry x="660" y="655" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="XALDTjOtuw6YVkXv6AhM-22" target="XALDTjOtuw6YVkXv6AhM-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-22" value="查询开始时间并加锁&lt;br&gt;cfg_statsales_date_time" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="780" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-30" value="查不到" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="XALDTjOtuw6YVkXv6AhM-26" target="XALDTjOtuw6YVkXv6AhM-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="XALDTjOtuw6YVkXv6AhM-26" target="XALDTjOtuw6YVkXv6AhM-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-26" value="&lt;span style=&quot;font-size: 12px&quot;&gt;查询日志最大创建时间&lt;/span&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;type = 2,3,45,105&lt;/span&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;大于当前时间，小于结束时间&lt;/span&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;limit 5000&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=14;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="900" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-29" value="最大时间 = 结束时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="692.5" y="930" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="XALDTjOtuw6YVkXv6AhM-31" target="XALDTjOtuw6YVkXv6AhM-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-31" value="更新数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1080" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="XALDTjOtuw6YVkXv6AhM-33" target="XALDTjOtuw6YVkXv6AhM-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-33" value="临时时间 = 最大时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1200" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="XALDTjOtuw6YVkXv6AhM-35" target="XALDTjOtuw6YVkXv6AhM-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-35" value="更新开始时间&lt;br&gt;cfg_statsales_date_time" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1320" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-43" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="XALDTjOtuw6YVkXv6AhM-39" target="XALDTjOtuw6YVkXv6AhM-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="XALDTjOtuw6YVkXv6AhM-39" target="XALDTjOtuw6YVkXv6AhM-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="1475" />
+              <mxPoint x="260" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-45" value="继续循环" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="XALDTjOtuw6YVkXv6AhM-44">
+          <mxGeometry x="0.0575" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-39" value="当前时间 &amp;gt; 6 点" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1440" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XALDTjOtuw6YVkXv6AhM-42" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1580" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
